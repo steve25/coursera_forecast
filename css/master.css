@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background-color: #ebebeb;
+  color: rgb(22, 22, 22);
+  font-family: 'Rethink Sans', sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: #d7d7d7;
+  padding: 2rem 0;
+}
+
+header > h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+header > p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+nav {
+  margin: 1.5rem 0;
+}
+
+nav select {
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+article > h2 {
+  margin: 1.5rem 0;
+}
+
+article > aside {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+aside > div {
+  background-color: #e5e5e5;
+  border: 1px solid black;
+  border-radius: 0.7rem;
+  padding: 0 1.3rem;
+}
+
+a {
+  color: rgb(22, 22, 22);
+}
+
+hr {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
