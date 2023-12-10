@@ -44,7 +44,7 @@ const formatDate = (date) => {
 
 const weatherByCity = async (latitude, longitude) => {
   const response = await fetch(
-    `http://www.7timer.info/bin/api.pl?lon=${longitude}&lat=${latitude}&unit=metric&product=civillight&output=json`
+    `https://www.7timer.info/bin/api.pl?lon=${longitude}&lat=${latitude}&unit=metric&product=civillight&output=json`
   );
   const forecast = await response.json();
   return forecast.dataseries;
