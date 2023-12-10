@@ -46,7 +46,6 @@ const weatherByCity = async (latitude, longitude) => {
   const response = await fetch(
     `http://www.7timer.info/bin/api.pl?lon=${longitude}&lat=${latitude}&unit=metric&product=civillight&output=json`
   );
-  `http://www.7timer.info/bin/astro.php?lon=${longitude}&lat=${latitude}&ac=0&lang=en&unit=metric&output=internal&tzshift=0`;
   const forecast = await response.json();
   return forecast.dataseries;
 };
